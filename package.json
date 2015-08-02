@@ -1,0 +1,41 @@
+{
+  "name": "esdoc-es7-plugin",
+  "version": "0.0.1",
+  "description": "ES7 Plugin For ESDoc",
+  "author": "h13i32maru",
+  "homepage": "https://github.com/esdoc/esdoc-es7-plugin",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/esdoc/esdoc-es7-plugin"
+  },
+  "scripts": {
+    "build": "node ./script/build.js",
+    "test": "node ./script/test.js",
+    "test-es5": "node ./script/test-es5.js"
+  },
+  "dependencies": {
+    "babylon": "^5.8.20",
+    "core-js": "^1.0.1",
+    "estraverse": "^4.1.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.20",
+    "coveralls": "~2.11.2",
+    "esdoc": "^0.1.4",
+    "fs-extra": "^0.22.1",
+    "istanbul": "~0.3.16",
+    "mocha": "~2.2.5",
+    "power-assert": "^0.11.0"
+  },
+  "keywords": [
+    "esdoc",
+    "es7",
+    "es6+"
+  ],
+  "files": [
+    "out/src",
+    "README.md"
+  ],
+  "main": "out/src/Plugin.js"
+}
