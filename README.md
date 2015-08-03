@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/esdoc/esdoc-es7-plugin.svg?branch=master)](https://travis-ci.org/esdoc/esdoc-es7-plugin)
+[![Coverage Status](https://coveralls.io/repos/esdoc/esdoc-es7-plugin/badge.svg)](https://coveralls.io/r/esdoc/esdoc-es7-plugin)
+[![Document](https://doc.esdoc.org/github.com/esdoc/esdoc-es7-plugin/badge.svg)](https://doc.esdoc.org/github.com/esdoc/esdoc-es7-plugin)
+
 # ESDoc ES7 Plugin
 This is an **experimental** plugin of supporting ES7.
 This plugin **does not optimize** ESDoc for ES7.
