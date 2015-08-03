@@ -22,7 +22,7 @@
   "devDependencies": {
     "babel": "^5.8.20",
     "coveralls": "~2.11.2",
-    "esdoc": "^0.1.4",
+    "esdoc": "^0.2.0",
     "fs-extra": "^0.22.1",
     "istanbul": "~0.3.16",
     "mocha": "~2.2.5",
