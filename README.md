@@ -6,6 +6,7 @@
 **This is an experimental plugin.**
 
 This plugin only **ignores ES7 syntax**(does not optimize) to produce the documentation.
+So, ES7 information(ClassProperties, AsyncFunctions and etc...) is not presented in the documentation.
 
 Now, ignore the following syntax.
 
