@@ -3,9 +3,9 @@
 [![Document](https://doc.esdoc.org/github.com/esdoc/esdoc-es7-plugin/badge.svg)](https://doc.esdoc.org/github.com/esdoc/esdoc-es7-plugin)
 
 # ESDoc ES7 Plugin
-This is an **experimental** plugin of supporting ES7.
-This plugin **does not optimize** ESDoc for ES7.
-Only **ignore the syntax of ES7** and to be able to produce the documentation.
+**This is an experimental plugin.**
+
+This plugin only **ignores ES7 syntax**(does not optimize) to produce the documentation.
 
 Now, ignore the following syntax.
 
@@ -19,9 +19,11 @@ Now, ignore the following syntax.
 - es7.trailingFunctionCommas
 - es7.exponentiationOperator
 
+FYI: https://babeljs.io/docs/usage/experimental/
+
 # Install and Usage
 ```sh
-npm install -g esdoc-es7-plugin
+npm install esdoc-es7-plugin
 ```
 
 setup ``plugin`` property in ``esdoc.json``
@@ -45,4 +47,5 @@ esdoc -c esdoc.json
 # LICENSE
 MIT
 
+# Author
 [Ryo Maruyama@h13i32maru](https://twitter.com/h13i32maru)
