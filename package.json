@@ -12,7 +12,8 @@
   "scripts": {
     "build": "node ./script/build.js",
     "test": "node ./script/test.js",
-    "test-es5": "node ./script/test-es5.js"
+    "test-es5": "node ./script/test-es5.js",
+    "esdoc": "./node_modules/.bin/esdoc -c esdoc.json"
   },
   "dependencies": {
     "babylon": "^5.8.20",
@@ -23,6 +24,8 @@
     "babel": "^5.8.20",
     "coveralls": "~2.11.2",
     "esdoc": "^0.2.0",
+    "esdoc-importpath-plugin": "0.0.1",
+    "espower-babel": "^3.2.0",
     "fs-extra": "^0.22.1",
     "istanbul": "~0.3.16",
     "mocha": "~2.2.5",
