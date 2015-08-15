@@ -50,6 +50,11 @@ export function parser(code) {
  */
 export function patchBabylonAST(ast) {
   function patch(node, parent) {
+    // decorator
+    if (node.decorators && node.decorators[0].leadingComments && !node.leadingComments) {
+      node.leadingComments = [node.decorators[0].leadingComments[0]];
+    }
+
     // for innerComments
     if (node.innerComments) {
       node.leadingComments = node.leadingComments || [];

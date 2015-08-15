@@ -12,6 +12,8 @@ describe('ES7', ()=>{
 
     const html = fs.readFileSync('./test/fixture/esdoc/class/src/ES7Decorators.js~ES7Decorators.html').toString();
     assert(html.includes('ES7Decorators'));
+    assert(html.includes('this is ES7Decorators with decorators'));
+    assert(html.includes('this is method with decorators'));
   });
 
   it('parse ES7 Exponentiation Operator', ()=>{
