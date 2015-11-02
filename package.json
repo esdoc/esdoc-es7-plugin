@@ -16,20 +16,20 @@
     "esdoc": "./node_modules/.bin/esdoc -c esdoc.json"
   },
   "dependencies": {
-    "babylon": "^5.8.20",
-    "core-js": "^1.0.1",
-    "estraverse": "^4.1.0"
+    "babylon": "5.8.20",
+    "core-js": "1.0.1",
+    "estraverse": "4.1.0"
   },
   "devDependencies": {
-    "babel": "^5.8.20",
-    "coveralls": "~2.11.2",
-    "esdoc": "^0.2.0",
+    "babel": "5.8.20",
+    "coveralls": "2.11.2",
+    "esdoc": "0.2.0",
     "esdoc-importpath-plugin": "0.0.1",
-    "espower-babel": "^3.2.0",
-    "fs-extra": "^0.22.1",
-    "istanbul": "~0.3.16",
-    "mocha": "~2.2.5",
-    "power-assert": "^0.11.0"
+    "espower-babel": "3.2.0",
+    "fs-extra": "0.22.1",
+    "istanbul": "0.3.16",
+    "mocha": "2.2.5",
+    "power-assert": "0.11.0"
   },
   "keywords": [
     "esdoc",

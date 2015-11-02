@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.0.3 (2015-11-02)
+- **Fix**
+  - Spread operator doesn't work ([#3](https://github.com/esdoc/esdoc-es7-plugin/issues/3))
+
 ## 0.0.2 (2015-08-15)
 - **Fix**
   - Missing documentation with decorator ([#1](https://github.com/esdoc/esdoc-es7-plugin/issues/1))
