@@ -1,3 +1,13 @@
+----
+
+<br/>
+
+**This Plugin is deprecated. Please see https://esdoc.org/manual/usage/feature.html#ecmascript-proposal**
+
+<br/>
+
+----
+
 [![Build Status](https://travis-ci.org/esdoc/esdoc-es7-plugin.svg?branch=master)](https://travis-ci.org/esdoc/esdoc-es7-plugin)
 [![Coverage Status](https://coveralls.io/repos/esdoc/esdoc-es7-plugin/badge.svg)](https://coveralls.io/r/esdoc/esdoc-es7-plugin)
 [![Document](https://doc.esdoc.org/github.com/esdoc/esdoc-es7-plugin/badge.svg)](https://doc.esdoc.org/github.com/esdoc/esdoc-es7-plugin)
