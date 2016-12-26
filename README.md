@@ -2,7 +2,9 @@
 
 <br/>
 
-**This Plugin is deprecated. Please see https://esdoc.org/manual/usage/feature.html#ecmascript-proposal**
+**This Plugin is deprecated.**
+
+**Please see https://esdoc.org/manual/usage/feature.html#ecmascript-proposal**
 
 <br/>
 
